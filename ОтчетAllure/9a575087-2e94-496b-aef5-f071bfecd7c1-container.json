@@ -1,0 +1,79 @@
+{
+	"uuid": "db3e4f13-79ed-40dc-b197-28fefe9ffa96",
+	"name": "Контекст_<описание сценария>",
+	"description": "",
+	"children": [
+		"9a575087-2e94-496b-aef5-f071bfecd7c1"
+	],
+	"befores": [
+		{
+			"name": "И ОткрытьКлиент \"ФедоровБМ\"",
+			"start": 1685284181829,
+			"stop": 1685284196839,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "*Открытие тест клиента",
+					"start": 1685284181829,
+					"stop": 1685284196839,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "И Я подключаю клиент тестирования 'ФедоровБМ' из таблицы клиентов тестирования",
+							"start": 1685284181829,
+							"stop": 1685284196280,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ФедоровБМ"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "И я закрываю все окна клиентского приложения",
+							"start": 1685284196726,
+							"stop": 1685284196839,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [],
+							"attachments": [],
+							"steps": []
+						}
+					]
+				}
+			]
+		}
+	],
+	"start": null,
+	"stop": null
+}
